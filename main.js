@@ -53,22 +53,22 @@ function gotResult(error,results){
         predicition_1=results[0].label;
         predicition_2=results[1].label;
         speak();
-        if  (results[0].label == "ok"){
+        if  (results[0].label == "Ok"){
             document.getElementById("emojiOne").innerHTML= "&#128076;"; 
         }
-        if  (results[0].label == "peace"){
+        if  (results[0].label == "pEACE"){
             document.getElementById("emojiOne").innerHTML= "&#9996;"; 
         }
-        if  (results[0].label == "thumbs up"){
+        if  (results[0].label == "Thumbs Up"){
             document.getElementById("emojiOne").innerHTML= "&#128077;"; 
         }
-        if  (results[1].label == "ok"){
+        if  (results[1].label == "Ok"){
             document.getElementById("emojiTwo").innerHTML= "&#128076;"; 
         }
-        if  (results[1].label == "peace"){
+        if  (results[1].label == "pEACE"){
             document.getElementById("emojiTwo").innerHTML= "&#9996;"; 
         }
-        if  (results[1].label == "thumbs up"){
+        if  (results[1].label == "Thumbs Up"){
             document.getElementById("emojiTwo").innerHTML= "&#128077;"; 
         }
     }
